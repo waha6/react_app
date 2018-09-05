@@ -38,7 +38,7 @@ class Blub extends Component {
   }
   render() {
     const {src} = this.state;
-    const {no,blubs,clgick} = this.props;
+    const {no,blubs,click} = this.props;
     return (
       <div>
       <img src={src[no]} width="300px"/><br/>
