@@ -12,9 +12,7 @@ function Header(props){
         name={props.name}
       />
     </Menu.Menu>
-    {/* <Menu.Item position='right'>
-    </Menu.Item> */}
-    <Menu.Item position='right'>
+    {!props.hide && <Menu.Item position='right'>
     <Button
         color='teal'
         content='Home'
@@ -26,7 +24,7 @@ function Header(props){
         content='LogOut'
         onClick={props.logout}
       />
-    </Menu.Item>
+    </Menu.Item>}
     </Menu>
   }
   export default Header;

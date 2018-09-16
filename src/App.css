@@ -33,7 +33,6 @@ body{
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
-<<<<<<< HEAD
 }
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 .form {
@@ -119,6 +118,4 @@ body{
     border-radius:20px}
 .swal-modal{
   height:auto
-=======
->>>>>>> e9053cb6d5208ea649cf8b71888b1471061171fd
 }
